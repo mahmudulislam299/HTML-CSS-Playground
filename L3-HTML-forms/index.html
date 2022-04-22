@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<title>HTML forms</title>
+</head>
+<body>
+
+	<h1>HTML Forms</h1>
+
+	<form>
+		<label	for="username">enter username: </label>
+		<input type="text" id="username" placeholder="username">
+		<br>
+		<label for="email">enter email: </label>
+		<input type="email" id="email" placeholder="email">
+		<br>
+		<label for="password">enter password: </label>
+		<input type="password" id="password" placeholder="password">
+		<br>
+		<label for="roll">enter roll: </label>
+		<input type="number" id="roll" placeholder="roll">
+		<br>
+		<label for="birthdate">enter birthdate</label>
+		<input type="date" id="birthdate" placeholder="birthdate">
+		<br>
+		<label for="gender">enter gender: </label>
+		<input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female">Female
+
+
+		<br><br>
+
+		<label for="question">security question: </label>
+		<select name="question" id="question">
+			<option value="q1">what color is your favorite?</option>
+			<option value="q2">what is your nick name?</option>
+			<option value="q3">what is your pet name?</option>
+		</select>
+
+		<br> <br>
+
+		<label for="answer">security question answer</label>
+		<input type="text" id="answer" name="answer" placeholder="security question answer">
+
+		<br> <br>
+		<label for="bio">Enter your bio: </label><br>
+		<textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+	</form>
+
+
+</body>

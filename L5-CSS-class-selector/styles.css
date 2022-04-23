@@ -1,0 +1,44 @@
+/* 
+for class use "."
+for id use "#" 
+all id must be unique
+*/
+
+.error {
+	color: red;
+}
+
+/* p is paragraph tag and error is class*/
+p.error {
+	text-decoration: line-through;
+}
+
+p.success {
+	color: green;
+}
+
+p.success.feedback {
+	border: 5px dashed crimson;
+}
+
+#content {
+	background-color: rgb(165, 165, 165);
+}
+
+/* div#content {
+
+} */
+
+div p.error{
+	text-align: right;
+}
+
+a {
+	background-color: cadetblue;
+}
+a[href="www.linkedin.com"] {
+	background-color:brown;
+	color: white;
+	font-weight: bold;
+}
+
